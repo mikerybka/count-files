@@ -8,7 +8,7 @@ import (
 
 func main() {
 	root := "."
-	if len(os.Args) > 2 {
+	if len(os.Args) >= 2 {
 		root = os.Args[1]
 	}
 
